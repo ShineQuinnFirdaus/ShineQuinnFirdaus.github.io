@@ -15,21 +15,21 @@
             if(nrp.value == ""){
                 nrp.focus();
                 nrp.placeholder = "contoh : 5026221148"
-                alert("NRP cinta");
+                alert("NRP harus diisi");
                 return false;
             }
             //harus 10 digit
             //selain 10, invalid
             if (nrp.value.length != 10){
                 nrp.focus();
-                alert("NRP harus 10 digit, lo memasukkan " + nrp.value.length + " digit");
+                alert("NRP harus 10 digit " + nrp.value.length + " digit");
                 return false;
             }
             //yang ada abjad a..z invalid
             if (isNaN(nrp.value) == true){ //true jika ada unsur abjad, false jika angka semua 
                 
                 nrp.focus();
-                msg.innerHTML = "NRP harus angka, bukan anak ITS ya?"; //InnerHTML mengubah tulisan dalam tag
+                msg.innerHTML = "NRP harus angka"; //InnerHTML mengubah tulisan dalam tag
                 return false;
             }
         }
