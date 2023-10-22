@@ -53,4 +53,6 @@ margin-top: -55px;
 .btn-primary:hover {
     background-color: grey;
 }
-
+.btn-primary:footer {
+     text-align: center;
+}
