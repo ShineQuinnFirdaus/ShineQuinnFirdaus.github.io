@@ -46,19 +46,11 @@ margin-top: -55px;
 
 .btn-primary {
     background-color: grey;
-    border: none;    
-}
-
-.btn-primary {
-    color: whitesmoke;
+    font-color: whitesmoke;
     border: grey;
 }
 
 .btn-primary:hover {
-    background-color: white;
-}
-
-.btn-primary:hover {
-    color: white;
+    background-color: grey;
 }
 
